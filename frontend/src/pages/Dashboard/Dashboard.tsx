@@ -101,6 +101,7 @@ const Dashboard = ({ org }: { org: string }) => {
         <section style={{ alignItems: "center" }}>
           <h2>Trading Insights</h2>
           <div id="investmentImage"></div>
+          <a href={`https://mumbai.polygonscan.com/address/${SMART_ACCOUNT_ADDRESS}`} target="_blank" rel="noopener noreferrer">{SMART_ACCOUNT_ADDRESS}</a>
 
           
         </section>
