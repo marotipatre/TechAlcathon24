@@ -30,15 +30,4 @@ contract HelperConfig is Script {
         });
     }
 
-    // function getOrCreateAnvilEthConfig() public returns (NetworkConfig memory anvilNetworkConfig) {
-    //     // Check to see if we set an active network config
-    //     if (activeNetworkConfig.entryPointAddress != address(0)) {
-    //         return activeNetworkConfig;
-    //     }
-
-    //     anvilNetworkConfig = NetworkConfig({
-    //         entryPointAddress: , // ETH / USD
-    //         deployerKey: DEFAULT_ANVIL_PRIVATE_KEY
-    //     });
-    // }
 }
